@@ -1,14 +1,14 @@
 {
   "name": "simple-data-pipe-connector-oauth-template",
   "version": "0.0.1",
-  "description": "Basic oAuth connector template for Simple Data Pipe.",
+  "description": "Simple Data Pipe connector OAuth1.0 boilerplate.",
   "main": "./lib",
   "repository": {
     "type": "git",
     "url": "https://github.com/ibm-cds-labs/simple-data-pipe-connector-oauth-template"
   },
   "simple_data_pipe": {
-    "name": "auth_template",
+    "name": "oauth_boilerplate",
     "service_dependencies": []
   },
   "keywords": [
@@ -21,9 +21,10 @@
     "bluemix-helper-config": "^0.1.13",
     "fs": "0.0.2",
     "lodash": "^4.3.0",
-    "path": "^0.12.7",
     "passport-reddit": "https://github.com/ptitzler/passport-reddit.git",
-    "simple-data-pipe-sdk": "^0.2.2"
+    "path": "^0.12.7",
+    "simple-data-pipe-sdk": "git://github.com/ibm-cds-labs/simple-data-pipe-sdk.git#pp_validation",
+    "util": "^0.10.3"
   },
   "author": {
     "name": "ptitzler@us.ibm.com"
