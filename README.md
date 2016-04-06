@@ -30,7 +30,7 @@ This connector does not require any additional Bluemix service.
   When you [follow these steps to install this connector](https://github.com/ibm-cds-labs/simple-data-pipe/wiki/Installing-a-Simple-Data-Pipe-Connector), add the following line to the dependencies list in the `package.json` file: 
 
 ```
-"simple-data-pipe-connector-oauth-template": "git://github.com/ibm-cds-labs/simple-data-pipe-connector-oauth-template.git"
+"simple-data-pipe-connector-oauth-template": "git://github.com/ibm-cds-labs/simple-data-pipe-connector-oauth-template.git",
 ```
 
 ##### Enable OAuth support and collect connectivity information
